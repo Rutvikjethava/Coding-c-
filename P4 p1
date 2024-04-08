@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int m, n;
+    void sort(int &j , int &k){
+        if(m>n){
+        int temp = m;
+        m = n;
+        n = temp ;
+        }
+    }
+int main()
+{
+    cout << "Enter value of a  :  "<<endl ;
+    cin>>m;
+    cout << "Enter value of b : " << endl;
+    cin>>n;
+    sort(m,n);
+    cout << "m = " <<m<<endl;
+    cout << "n = " <<n<<endl;
+    return 0;
+}
